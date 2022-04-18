@@ -1,0 +1,44 @@
+body{
+    justify-content: center;
+    min-height: 100%;
+   
+}
+h2{
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+::selection{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+marquee{
+    font-family: 'Cinzel', serif;
+    
+}
+.navbar{
+    background-color:#1C2331;
+    color: white;
+    opacity: 0.5;
+}
+.navbar:hover{
+    opacity: 1;
+}
+.featurette:hover{
+    transform: scale(0.97);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0);
+  }
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.modal-label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
